@@ -1,4 +1,4 @@
-# opichon.docker-mysql
+# dzangolab.docker-mysql
 
 An Ansible role to run a MySQL server as a docker container.
 
@@ -34,7 +34,7 @@ mysql_state: started
 ---
 - hosts: servers
   roles:
-  	- opichon.docker-mysql
+  	- dzangolab.docker_mysql
   	  mysql_env:
   	  	MYSQL_DATABASE: mydb
   	  	MYSQL_USER: me

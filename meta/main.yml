@@ -1,7 +1,11 @@
 galaxy_info:
+  role_name: docker_muysql
   author: Olivier Pichon <op@united-asian.com>
   description: Install mysql as a docker container
   company: United Asian Management Limited
+  author: Olivier Pichon <op@dzaango.com>
+  description: Installs traefik proxy and other useful services as docker containers
+  company: Dzango Technologies Limited
 
   license: license (MIT)
 
