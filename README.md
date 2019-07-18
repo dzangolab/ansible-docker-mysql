@@ -21,6 +21,7 @@ mysql_collation: utf8mb4_unicode_520_ci
 mysql_conf_dir: /var/mysql/conf.d
 mysql_container_name: mysql
 mysql_lib_dir: /var/mysql/lib
+mysql_image: mariadb:10
 mysql_network: mysql
 mysql_password
 mysql_port: 3306

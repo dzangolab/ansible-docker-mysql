@@ -29,7 +29,7 @@
   docker_container:
     env:
       MYSQL_ROOT_PASSWORD: "{{ mysql_root_password }}"
-    image: mysql:5.7
+    image: "{{ mysql_image }}"
     labels:
       traefik.enable: "false"
     name: "{{ mysql_container_name }}"
